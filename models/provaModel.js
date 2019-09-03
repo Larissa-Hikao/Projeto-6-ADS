@@ -13,6 +13,8 @@ class Prova{
         this.dataProva=dataProva
     }
 
+    lerProvas()
+
     salvar(){
         let provas=[]
 
