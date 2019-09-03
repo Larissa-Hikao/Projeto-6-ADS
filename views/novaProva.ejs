@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nova Prova</title>
+</head>
+<body>
+    <h1>Nova Prova</h1>
+    <form action="/provas/nova" method="post">
+        <div>
+            <label for="disciplina">Disciplina</label>
+            <input type="text" name="disciplina" id="disciplina">
+        </div>
+        <div>
+            <label for="professor">Professor</label>
+            <input type="text" name="professor" id="professor">
+        </div>
+        <div>
+            <label for="dataProva">Data da Prova</label>
+            <input type="date" name="dataProva" id="dataProva">
+        </div>
+        <button type="submit">Salvar Prova</button>
+    </form>
+</body>
+</html>
